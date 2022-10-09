@@ -56,25 +56,25 @@ Choose the package manager your preference:
 With [npm](https://npmjs.com/):
 
 ```bash
-$ npm install @ederssouza/react-vimeo-player
+$ npm install reactjs-vimeo-player
 ```
 
 With [yarn](https://yarnpkg.com/):
 
 ```bash
-$ yarn add @ederssouza/react-vimeo-player
+$ yarn add reactjs-vimeo-player
 ```
 
 With [pnpm](https://pnpm.io/):
 
 ```bash
-$ pnpm add @ederssouza/react-vimeo-player
+$ pnpm add reactjs-vimeo-player
 ```
 
 ## How to use
 
 ```jsx
-import { VimeoPlayer } from '@ederssouza/react-vimeo-player'
+import { VimeoPlayer } from 'reactjs-vimeo-player'
 
 function Component() {
   return <VimeoPlayer id="59777392" />
@@ -86,8 +86,8 @@ export default Component
 ## Options
 
 ```jsx
-import { VimeoPlayer } from '@ederssouza/react-vimeo-player'
-import type { PlayEvent } from '@ederssouza/react-vimeo-player'
+import { VimeoPlayer } from 'reactjs-vimeo-player'
+import type { PlayEvent } from 'reactjs-vimeo-player'
 
 function Component() {
   return <Vimeo id="59777392" autoplay />
@@ -131,8 +131,8 @@ width              | `number`              |          | The exact width of the v
 You can listen for events in the player by attaching a callback as React property:
 
 ```tsx
-import { VimeoPlayer } from '@ederssouza/react-vimeo-player'
-import type { PlayEvent } from '@ederssouza/react-vimeo-player'
+import { VimeoPlayer } from 'reactjs-vimeo-player'
+import type { PlayEvent } from 'reactjs-vimeo-player'
 
 function Component() {
   function onPlay(event: PlayEvent) {
