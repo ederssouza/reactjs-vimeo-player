@@ -1,8 +1,0 @@
-{
-  "name": "reactjs-vimeo-player",
-  "version": "0.0.1",
-  "main": "dist/index.js",
-  "repository": "git@github.com:ederssouza/react-vimeo-player.git",
-  "author": "Eder Sampaio <edersampaio@outlook.com.br>",
-  "license": "MIT"
-}
