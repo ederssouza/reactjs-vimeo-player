@@ -108,7 +108,7 @@ color              | `string`              | `00adef` | Specify the color of the
 controls           | `boolean`             | `true`   | This parameter will hide all elements in the player (play bar, sharing buttons, etc) for a chromeless experience. ⚠️Warning: When using this parameter, the play bar and UI will be hidden. To start playback for your viewers, you'll need to either enable autoplay or use our player SDK to start and control playback. (available to Plus, PRO, or Business members)
 dnt                | `boolean`             | `false`  | Block the player from tracking any session data, including cookies.
 height             | `number`              |          | The exact height of the video. Defaults to the height of the largest available version of the video.
-fullWidth          | `boolean`             | `false`  | The video player occupies 100% of the parent element space. Required import CSS file `import 'reactjs-vimeo-player/dist/style.css`.
+fullWidth          | `boolean`             | `false`  | The video player occupies 100% of the parent element space. Required import CSS file `import 'reactjs-vimeo-player/dist/style.css'`.
 interactive_params | `string`              |          | Key-value pairs representing dynamic parameters that are utilized on interactive videos with live elements. Ex: `key1=value1,key2=value2`.
 keyboard           | `boolean`             | `true`   | Allows for keyboard input to trigger player events. If false, will ignore keyboard input. Tabbing will still be supported in either mode.
 loop               | `boolean`             | `false`  | Play the video again when it reaches the end.
