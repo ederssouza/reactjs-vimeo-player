@@ -1,0 +1,27 @@
+export { default as VimeoPlayer } from './VimeoPlayer'
+export type {
+  PlayEvent,
+  PlayingEvent,
+  PauseEvent,
+  EndedEvent,
+  TimeUpdateEvent,
+  ProgressEvent,
+  SeekingEvent,
+  SeekedEvent,
+  TextTrackChangeEvent,
+  ChapterChangeEvent,
+  CueChangeEvent,
+  CuePointEvent,
+  VolumeChangeEvent,
+  PlaybackRateEvent,
+  PlayerErrorEvent,
+  LoadedEvent,
+  DurationChangeEvent,
+  FullScreenChangeEvent,
+  QualityChangeEvent,
+  CameraChangeEvent,
+  ResizeEvent,
+  InteractiveHotspotClickedEvent,
+  InteractiveOverlayPanelClickedEvent,
+  VimeoPlayerProps
+} from './types'
