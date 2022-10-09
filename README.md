@@ -1,5 +1,12 @@
 <h1 align="center">ReactJS Vimeo Player</h1>
 
+<p align="center">
+  <img src="https://img.shields.io/github/license/ederssouza/reactjs-vimeo-player" alt="GitHub" />
+  <img src="https://img.shields.io/npm/v/reactjs-vimeo-player" alt="npm" />
+  <img src="https://img.shields.io/npm/dw/reactjs-vimeo-player" alt="npm" />
+  <img src="https://img.shields.io/npm/dm/reactjs-vimeo-player" alt="npm" />
+</p>
+
 ## Summary
 
 - [About](#about)
