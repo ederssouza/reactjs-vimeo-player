@@ -1,10 +1,29 @@
 {
   "name": "reactjs-vimeo-player",
-  "version": "1.0.3",
+  "version": "1.0.4",
+  "description": "@vimeo/player wrapper for React.",
   "type": "module",
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.es.js",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ederssouza/reactjs-vimeo-player.git"
+  },
+  "keywords": [
+    "vimeo",
+    "react-video-player",
+    "vimeo-player",
+    "vimeoplayer",
+    "reactjs-vimeo-player",
+    "ederssouza"
+  ],
+  "author": "Eder Sampaio <edersampaio@outlook.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ederssouza/reactjs-vimeo-player/issues"
+  },
+  "homepage": "https://github.com/ederssouza/reactjs-vimeo-player#readme",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
